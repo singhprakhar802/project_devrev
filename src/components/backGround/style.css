@@ -1,0 +1,30 @@
+.bg_section .background_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  overflow: hidden;
+}
+
+.bg_section .background_img .lazy-load-image-background {
+  width: 100%;
+  height: 100%;
+}
+
+.bg_section .background_img .lazy-load-image-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bg_section .opacity_layer {
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(180deg, rgba(4, 21, 45, 0) 0%, #04152d 79.17%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

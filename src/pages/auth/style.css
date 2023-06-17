@@ -1,0 +1,91 @@
+.loginContainer {
+  width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  background-color: var(--black);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 280px;
+}
+
+.loginContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.loginForm button {
+  padding: 10px;
+  background-color:black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginForm button:hover {
+  background-color: var(--black-light);
+}
+
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-form {
+  height: 100%;
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--black);
+  margin: 180px 0;
+}
+
+.register-form label {
+  margin-bottom: 100px;
+  margin-left: 20px;
+}
+
+.register-form input {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-form button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: var(--black-light);
+}
